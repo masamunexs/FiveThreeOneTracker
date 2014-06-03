@@ -21,6 +21,11 @@
 		D2104A6A18FB1DAE00E1EF97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2104A4C18FB1DAD00E1EF97 /* UIKit.framework */; };
 		D2104A7218FB1DAE00E1EF97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2104A7018FB1DAE00E1EF97 /* InfoPlist.strings */; };
 		D2104A7418FB1DAE00E1EF97 /* FiveThreeOneTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2104A7318FB1DAE00E1EF97 /* FiveThreeOneTrackerTests.m */; };
+		D2A15A6D190DD9CF00794EEA /* WeightExercise.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A15A6C190DD9CF00794EEA /* WeightExercise.m */; };
+		D2A15A79190E337600794EEA /* ExerciseGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A15A78190E337600794EEA /* ExerciseGroup.m */; };
+		D2A15A7C190ED84C00794EEA /* FiveThreeOneSetGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A15A7B190ED84C00794EEA /* FiveThreeOneSetGroup.m */; };
+		D2A3EAD5191935C0003B6666 /* BenchPressWeightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A3EAD4191935C0003B6666 /* BenchPressWeightVC.m */; };
+		D2A3EAD919198C77003B6666 /* InitialConfiguration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A3EAD819198C77003B6666 /* InitialConfiguration.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,15 @@
 		D2104A6F18FB1DAE00E1EF97 /* FiveThreeOneTrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FiveThreeOneTrackerTests-Info.plist"; sourceTree = "<group>"; };
 		D2104A7118FB1DAE00E1EF97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2104A7318FB1DAE00E1EF97 /* FiveThreeOneTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveThreeOneTrackerTests.m; sourceTree = "<group>"; };
+		D2A15A6B190DD9CF00794EEA /* WeightExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightExercise.h; sourceTree = "<group>"; };
+		D2A15A6C190DD9CF00794EEA /* WeightExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightExercise.m; sourceTree = "<group>"; };
+		D2A15A77190E337500794EEA /* ExerciseGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseGroup.h; sourceTree = "<group>"; };
+		D2A15A78190E337600794EEA /* ExerciseGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseGroup.m; sourceTree = "<group>"; };
+		D2A15A7A190ED84C00794EEA /* FiveThreeOneSetGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveThreeOneSetGroup.h; sourceTree = "<group>"; };
+		D2A15A7B190ED84C00794EEA /* FiveThreeOneSetGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveThreeOneSetGroup.m; sourceTree = "<group>"; };
+		D2A3EAD3191935C0003B6666 /* BenchPressWeightVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BenchPressWeightVC.h; sourceTree = "<group>"; };
+		D2A3EAD4191935C0003B6666 /* BenchPressWeightVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BenchPressWeightVC.m; sourceTree = "<group>"; };
+		D2A3EAD819198C77003B6666 /* InitialConfiguration.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = InitialConfiguration.storyboard; path = ../InitialConfiguration.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +126,8 @@
 		D2104A4E18FB1DAD00E1EF97 /* FiveThreeOneTracker */ = {
 			isa = PBXGroup;
 			children = (
+				D2A3EADA19198C85003B6666 /* InitialConfiguration */,
+				D2104A7D18FB1E3F00E1EF97 /* Model */,
 				D2104A5718FB1DAD00E1EF97 /* AppDelegate.h */,
 				D2104A5818FB1DAD00E1EF97 /* AppDelegate.m */,
 				D2104A5A18FB1DAD00E1EF97 /* Main.storyboard */,
@@ -150,6 +166,29 @@
 				D2104A7018FB1DAE00E1EF97 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2104A7D18FB1E3F00E1EF97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2A15A6B190DD9CF00794EEA /* WeightExercise.h */,
+				D2A15A6C190DD9CF00794EEA /* WeightExercise.m */,
+				D2A15A77190E337500794EEA /* ExerciseGroup.h */,
+				D2A15A78190E337600794EEA /* ExerciseGroup.m */,
+				D2A15A7A190ED84C00794EEA /* FiveThreeOneSetGroup.h */,
+				D2A15A7B190ED84C00794EEA /* FiveThreeOneSetGroup.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D2A3EADA19198C85003B6666 /* InitialConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				D2A3EAD3191935C0003B6666 /* BenchPressWeightVC.h */,
+				D2A3EAD4191935C0003B6666 /* BenchPressWeightVC.m */,
+				D2A3EAD819198C77003B6666 /* InitialConfiguration.storyboard */,
+			);
+			name = InitialConfiguration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A3EAD919198C77003B6666 /* InitialConfiguration.storyboard in Resources */,
 				D2104A6118FB1DAD00E1EF97 /* Images.xcassets in Resources */,
 				D2104A5318FB1DAD00E1EF97 /* InfoPlist.strings in Resources */,
 				D2104A5C18FB1DAD00E1EF97 /* Main.storyboard in Resources */,
@@ -251,6 +291,10 @@
 			files = (
 				D2104A5F18FB1DAD00E1EF97 /* ViewController.m in Sources */,
 				D2104A5918FB1DAD00E1EF97 /* AppDelegate.m in Sources */,
+				D2A15A7C190ED84C00794EEA /* FiveThreeOneSetGroup.m in Sources */,
+				D2A15A6D190DD9CF00794EEA /* WeightExercise.m in Sources */,
+				D2A15A79190E337600794EEA /* ExerciseGroup.m in Sources */,
+				D2A3EAD5191935C0003B6666 /* BenchPressWeightVC.m in Sources */,
 				D2104A5518FB1DAD00E1EF97 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +500,7 @@
 				D2104A7918FB1DAE00E1EF97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2104A7A18FB1DAE00E1EF97 /* Build configuration list for PBXNativeTarget "FiveThreeOneTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +509,7 @@
 				D2104A7C18FB1DAE00E1EF97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
