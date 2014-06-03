@@ -25,6 +25,7 @@
 - (BOOL)startWorkout; // sets the start time for the workout, returns false if the start time has already been set.
 - (BOOL)endWorkout; // sets the end time for the workout, returns whether or not it has been set (will not set if it's already been set)
 - (int)singleRepMax;
+
 - (void)completedWeightOf:(NSUInteger)weight withRepsOf:(NSInteger)reps;
 
 @end
